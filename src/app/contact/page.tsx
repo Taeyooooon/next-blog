@@ -21,7 +21,7 @@ export default function ContactPage() {
         {LINKS.map((link, index) => (
           <a
             key={index}
-            href='link.url'
+            href={link.url}
             target='_blank'
             rel='noreferrer'
             className='text-5xl hover:text-yellow-500  '
