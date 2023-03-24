@@ -1,6 +1,13 @@
 import { AiFillGithub } from 'react-icons/ai';
 import { SiVelog } from 'react-icons/si';
 import ContactForm from '../components/ContactForm';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact Me',
+  description: 'Taeyoon Contact',
+};
+
 const LINKS = [
   {
     icon: <AiFillGithub />,
