@@ -37,7 +37,7 @@ export default function ContactPage() {
           </a>
         ))}
       </ul>
-      <h2 className=' text-3xl font-bold my-8'>Or Send an Email</h2>
+      <h2 className=' text-3xl font-bold my-8'>Or Send an Email Below🔻</h2>
       <ContactForm />
     </section>
   );
