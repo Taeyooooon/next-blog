@@ -93,7 +93,7 @@ export default function ContactForm() {
           onChange={onChange}
           className='text-black'
         />
-        <button className='bg-yellow-400 text-black font-bold hover:bg-yellow-500'>
+        <button className='bg-blue-300 text-black font-bold hover:bg-blue-400'>
           Submit
         </button>
       </form>
